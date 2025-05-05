@@ -133,6 +133,7 @@ namespace Content.Server.Heretic.Ritual;
         {
             if (!args.EntityManager.TryGetComponent<MobStateComponent>(look, out var mobstate) // only mobs
             || !args.EntityManager.HasComponent<HumanoidAppearanceComponent>(look) // only humans
+            || args.EntityManager.HasComponent<HellVictimComponent>(look) //no reusing corpses - IMP
             || OnlyTargets
                 && hereticComp.SacrificeTargets.All(x => x.Entity != args.EntityManager.GetNetEntity(look)) // only targets
                 && !args.EntityManager.HasComponent<HereticComponent>(look)) // or other heretics
