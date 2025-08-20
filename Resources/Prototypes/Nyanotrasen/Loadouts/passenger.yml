@@ -13,6 +13,7 @@
   id: GeishaOutfit
   equipment:
     jumpsuit: UniformGeisha
+  groupBy: "Dress"
 - type: loadout
   id: ClothingCostumeMioSkirtOutfit
   equipment:
@@ -29,6 +30,7 @@
   id: ClothingUniformDressRedOutfit
   equipment:
     jumpsuit: ClothingUniformDressRed
+  groupBy: "Dress"
 - type: loadout
   id: ClothingUniformKendoHakamaOutfit
   equipment:
@@ -37,69 +39,86 @@
   id: ClothingKimonoBlueOutfit
   equipment:
     jumpsuit: ClothingKimonoBlue
+  groupBy: "Civkimo"
 - type: loadout
   id: ClothingKimonoPinkOutfit
   equipment:
     jumpsuit: ClothingKimonoPink
+  groupBy: "Civkimo"
 - type: loadout
   id: ClothingKimonoPurpleOutfit
   equipment:
     jumpsuit: ClothingKimonoPurple
+  groupBy: "Civkimo"
 - type: loadout
   id: ClothingKimonoSkyOutfit
   equipment:
     jumpsuit: ClothingKimonoSky
+  groupBy: "Civkimo"
 - type: loadout
   id: ClothingKimonoGreenOutfit
   equipment:
     jumpsuit: ClothingKimonoGreen
+  groupBy: "Civkimo"
 - type: loadout
   id: UniformSchoolgirlDuskOutfit
   equipment:
     jumpsuit: UniformSchoolgirlDusk
+  groupBy: "Schoolgirl"
 - type: loadout
   id: UniformSchoolgirlBlazerTanOutfit
   equipment:
     jumpsuit: UniformSchoolgirlBlazerTan
+  groupBy: "Schoolgirl"
 - type: loadout
   id: ClothingUniformMNKOfficeSkirtOutfit
   equipment:
     jumpsuit: ClothingUniformMNKOfficeSkirt
+  groupBy: "MNK"
 - type: loadout
   id: ClothingUniformMNKUnderGarmentOutfit
   equipment:
     jumpsuit: ClothingUniformMNKUnderGarment
+  groupBy: "MNK"
 - type: loadout
   id: ClothingUniformMNKGymBraOutfit
   equipment:
     jumpsuit: ClothingUniformMNKGymBra
+  groupBy: "MNK"
 - type: loadout
   id: ClothingUniformMNKDressBlackOutfit
   equipment:
     jumpsuit: ClothingUniformMNKDressBlack
+  groupBy: "MNK"
 - type: loadout
   id: ClothingUniformMNKBlackOverallsOutfit
   equipment:
     jumpsuit: ClothingUniformMNKBlackOveralls
+  groupBy: "MNK"
 - type: loadout
   id: ClothingUniformMNKBlackShoulderOutfit
   equipment:
     jumpsuit: ClothingUniformMNKBlackShoulder
+  groupBy: "MNK"
 - type: loadout
   id: ClothingUniformMNKTracksuitBlackOutfit
   equipment:
     jumpsuit: ClothingUniformMNKTracksuitBlack
+  groupBy: "MNK"
 
 # Outerclothing
 - type: loadout
   id: MNKWhiteHoodie
   equipment:
     outerClothing: ClothingOuterCoatMNKWhiteHoodie
+  groupBy: "MNK"
 - type: loadout
   id: MNKBlackTopCoat
   equipment:
     outerClothing: ClothingOuterCoatMNKBlackTopCoat
+  groupBy: "MNK"
 - type: loadout
   id: MNKBlackJacket
   equipment:
     outerClothing: ClothingOuterCoatMNKBlackJacket
+  groupBy: "MNK"

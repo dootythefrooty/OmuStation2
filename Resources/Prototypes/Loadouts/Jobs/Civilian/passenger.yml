@@ -212,6 +212,7 @@
   id: PassengerWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCoat
+  groupBy: "Wintercoat"
 
 - type: loadout
   id: SuitWitchRobes
@@ -222,6 +223,7 @@
   id: Bomber
   equipment:
     outerClothing: ClothingOuterCoatBomber
+  groupBy: "Bomber"
 
 # Shoes
 - type: loadout
@@ -240,91 +242,91 @@
   id: GreyMJ
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorGrey
-
+  groupBy: "Milijump"
 
 - type: loadout
   id: BlackMJ
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorBlack
-
+  groupBy: "Milijump"
 
 - type: loadout
   id: BlueMJ
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorBlue
-
+  groupBy: "Milijump"
 
 - type: loadout
   id: DarkBlueMJ
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorDarkBlue
-
+  groupBy: "Milijump"
 
 - type: loadout
   id: TealMJ
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorTeal
-
+  groupBy: "Milijump"
 
 - type: loadout
   id: GreenMJ
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorGreen
-
+  groupBy: "Milijump"
 
 - type: loadout
   id: DarkGreenMJ
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorDarkGreen
-
+  groupBy: "Milijump"
 
 - type: loadout
   id: OrangeMJ
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorOrange
-
+  groupBy: "Milijump"
 
 - type: loadout
   id: PinkMJ
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorPink
-
+  groupBy: "Milijump"
 
 - type: loadout
   id: RedMJ
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorRed
-
+  groupBy: "Milijump"
 
 - type: loadout
   id: YellowMJ
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorYellow
-
+  groupBy: "Milijump"
 
 - type: loadout
   id: PurpleMJ
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorPurple
-
+  groupBy: "Milijump"
 
 - type: loadout
   id: LightBrownMJ
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorLightBrown
-
+  groupBy: "Milijump"
 
 - type: loadout
   id: BrownMJ
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorBrown
-
+  groupBy: "Milijump"
 
 - type: loadout
   id: MaroonMJ
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorMaroon
-
+  groupBy: "Milijump"
 
 
 # service jumpsuit - putting it here because frontier's only service jumpsuits are hydroponics and general lmao # goob change btw

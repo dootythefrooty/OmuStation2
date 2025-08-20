@@ -25,56 +25,69 @@
   id: JackBootsFake #The fake military boots are a different prototype without the slowdown modifier or internal storage, but the same texture.
   equipment:
     shoes: ClothingShoesBootsJackFake
+  groupBy: "combat"
 - type: loadout
   id: CombatBootsFake
   equipment:
     shoes: ClothingShoesBootsCombatFake
+  groupBy: "combat"
 - type: loadout
   id: MercBootsFake
   equipment:
     shoes: ClothingShoesBootsMercFake
+  groupBy: "combat"
 - type: loadout
   id: CowboyBootsBrown
   equipment:
     shoes: ClothingShoesBootsCowboyBrown
+  groupBy: "cowboy"
 - type: loadout
   id: CowboyBootsBlack
   equipment:
     shoes: ClothingShoesBootsCowboyBlack
+  groupBy: "cowboy"
 - type: loadout
   id: CowboyBootsWhite
   equipment:
     shoes: ClothingShoesBootsCowboyWhite
+  groupBy: "cowboy"
 - type: loadout
   id: CowboyBootsFancy
   equipment:
     shoes: ClothingShoesBootsCowboyFancy
+  groupBy: "cowboy"
 
 # Neck
 - type: loadout
   id: NeckScarfRed
   equipment:
     neck: ClothingNeckScarfStripedRed
+  groupBy: "scarf"
 - type: loadout
   id: NeckScarfBlue
   equipment:
     neck: ClothingNeckScarfStripedBlue
+  groupBy: "scarf"
 - type: loadout
   id: NeckScarfGreen
   equipment:
     neck: ClothingNeckScarfStripedGreen
+  groupBy: "scarf"
 - type: loadout
   id: NeckScarfBlack
   equipment:
     neck: ClothingNeckScarfStripedBlack
+  groupBy: "scarf"
 - type: loadout
   id: NeckScarfOrange
   equipment:
     neck: ClothingNeckScarfStripedOrange
+  groupBy: "scarf"
 - type: loadout
   id: NeckScarfPurple
   equipment:
     neck: ClothingNeckScarfStripedPurple
+  groupBy: "scarf"
 - type: loadout
   id: NeckTieRed
   equipment:
