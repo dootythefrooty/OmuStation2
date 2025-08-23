@@ -548,7 +548,7 @@ public sealed partial class AntagSelectionSystem : GameRuleSystem<AntagSelection
             // goob edit end
 
             return;
-        }r
+        }
 
         if (def.UnequipOldGear && TryComp(player, out InventoryComponent? inventory) &&
             _inventory.TryGetSlots(player, out var slots))
