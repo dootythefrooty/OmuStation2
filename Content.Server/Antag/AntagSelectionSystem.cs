@@ -98,7 +98,6 @@ using System.Linq;
 using Content.Server._Goobstation.Antag;
 using Content.Server.Antag.Components;
 using Content.Server.Chat.Managers;
-using Content.Server.Database.Migrations.Sqlite;
 using Content.Server.GameTicking;
 using Content.Server.GameTicking.Events;
 using Content.Server.GameTicking.Rules;
@@ -549,7 +548,7 @@ public sealed partial class AntagSelectionSystem : GameRuleSystem<AntagSelection
             // goob edit end
 
             return;
-        }
+        }r
 
         if (def.UnequipOldGear && TryComp(player, out InventoryComponent? inventory) &&
             _inventory.TryGetSlots(player, out var slots))
@@ -659,6 +658,7 @@ public sealed partial class AntagSelectionSystem : GameRuleSystem<AntagSelection
                 fallbackList.Add(session);
             }
         }
+
         return new AntagSelectionPlayerPool(new() { ToWeightsDict(preferredList), ToWeightsDict(fallbackList) }); // Goobstation
     }
 
