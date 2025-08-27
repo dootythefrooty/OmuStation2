@@ -76,6 +76,7 @@
   id: MusicianGear
   equipment:
     eyes: ClothingEyesGlassesSunglasses
+    shoes: ClothingShoesBootsLaceup
     id: MusicianPDA
     ears: ClothingHeadsetService
   #storage:
