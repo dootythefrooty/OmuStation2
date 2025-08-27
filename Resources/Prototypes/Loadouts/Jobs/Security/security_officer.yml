@@ -166,11 +166,6 @@
 
 
 - type: loadout
-  id: SecuritySummerJumpsuit
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitSecSummer
-
-- type: loadout
   id: TrooperUniform
   equipment:
     jumpsuit: ClothingUniformSecurityTrooper

@@ -213,10 +213,6 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor
 
-- type: loadout # Loadout Reworks
-  id: NurseOutfit
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtNurse
 
 # Back
 - type: loadout
