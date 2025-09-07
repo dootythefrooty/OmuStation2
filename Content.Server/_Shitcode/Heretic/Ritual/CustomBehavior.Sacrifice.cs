@@ -208,13 +208,7 @@ namespace Content.Server.Heretic.Ritual;
                     }
                 }
             }
-            //beat the clone to death. this is just to get matching organs
-            if (args.EntityManager.TryGetComponent<DamageableComponent>(uids[i], out var dmg))
-            {
-                var prot = (ProtoId<DamageGroupPrototype>) "Brute";
-                var dmgtype = _proto.Index(prot);
-                _damage.TryChangeDamage(sacrificialWhiteBoy, new DamageSpecifier(dmgtype, 1984f), true);
-            }
+            _body.GibBody(sacrificialWhiteBoy, contents: GibContentsOption.Gib); // gib now - dooty
 
             //send the target to hell world
             _hellworld.AddVictimComponent(uids[i]);
