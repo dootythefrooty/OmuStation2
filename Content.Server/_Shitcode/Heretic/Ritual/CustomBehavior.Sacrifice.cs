@@ -42,6 +42,7 @@ using Content.Shared.Forensics;
 using Content.Shared.Chemistry.Reagent;
 using Robust.Shared.GameObjects;
 using Content.Shared.Chemistry.EntitySystems;
+using Content.Server._Imp.Heretic.Components;
 //impstation end
 
 

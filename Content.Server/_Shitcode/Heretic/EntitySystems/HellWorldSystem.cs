@@ -1,5 +1,5 @@
-using Content.Server._Goobstation.Heretic.Components;
-using Content.Server._Goobstation.Heretic.UI;
+using Content.Server._Imp.Heretic.Components;
+using Content.Server._Imp.Heretic.UI;
 using Content.Server.Administration.Systems;
 using Content.Server.EUI;
 using Content.Server.Heretic.Components;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Content.Shared.Humanoid.Prototypes;
 using Robust.Shared.Map;
 
-namespace Content.Server.Heretic.Components;
+namespace Content.Server._Imp.Heretic.Components;
 
 [RegisterComponent]
 [AutoGenerateComponentPause]
