@@ -1,4 +1,4 @@
-namespace Content.Server._Goobstation.Heretic.Components;
+namespace Content.Server._Imp.Heretic.Components;
 
 [RegisterComponent]
 public sealed partial class HellSpawnPointComponent : Component

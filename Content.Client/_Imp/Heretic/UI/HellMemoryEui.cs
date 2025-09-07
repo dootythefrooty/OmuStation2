@@ -1,6 +1,6 @@
 using Content.Client.Eui;
 
-namespace Content.Client._Shitcode.Heretic.UI;
+namespace Content.Client._Imp.Heretic.UI;
 
 public sealed class HellMemoryEui : BaseEui
 {

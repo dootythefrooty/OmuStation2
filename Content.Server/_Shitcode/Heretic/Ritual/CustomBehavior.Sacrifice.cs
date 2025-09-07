@@ -89,14 +89,13 @@ namespace Content.Server.Heretic.Ritual;
 
 
     [Dependency] protected IPrototypeManager _proto = default!;
-    [Dependency] protected IEntityManager _entmanager = default!;
 
 
     protected List<EntityUid> uids = new();
 
     public override bool Execute(RitualData args, out string? outstr)
     {
-        //it was like this when i got here -kandiyaki //IMP
+        //it was like this when i got here -kandiyaki //imp
         _mind = args.EntityManager.System<SharedMindSystem>();
         _heretic = args.EntityManager.System<HereticSystem>();
         _xform = args.EntityManager.System<SharedTransformSystem>(); //imp
@@ -110,8 +109,6 @@ namespace Content.Server.Heretic.Ritual;
         _solutionContainerSystem = args.EntityManager.System<SharedSolutionContainerSystem>(); //imp
 
         _proto = IoCManager.Resolve<IPrototypeManager>();
-        _entmanager = IoCManager.Resolve<IEntityManager>();
-
 
         uids = new();
 
@@ -133,7 +130,7 @@ namespace Content.Server.Heretic.Ritual;
         {
             if (!args.EntityManager.TryGetComponent<MobStateComponent>(look, out var mobstate) // only mobs
             || !args.EntityManager.HasComponent<HumanoidAppearanceComponent>(look) // only humans
-            || args.EntityManager.HasComponent<HellVictimComponent>(look) //no reusing corpses - IMP
+            || args.EntityManager.HasComponent<HellVictimComponent>(look) //no reusing corpses // imp
             || OnlyTargets
                 && hereticComp.SacrificeTargets.All(x => x.Entity != args.EntityManager.GetNetEntity(look)) // only targets
                 && !args.EntityManager.HasComponent<HereticComponent>(look)) // or other heretics
