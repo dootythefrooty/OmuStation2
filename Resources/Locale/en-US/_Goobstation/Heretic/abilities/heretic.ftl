@@ -76,8 +76,3 @@ heretic-speech-mansuslink = PI'RC' TH' M'ND!
 heretic-speech-realignment = R'S'T!
 heretic-speech-fuckoff = F'K 'FF!!
 heretic-speech-ice-spear = D'WN 'F TH'CE!
-
-## impstation
-
-heretic-ghoul-examine = { CAPITALIZE(POSS-ADJ($ent)) } body looks like a decaying corpse.
-heretic-hell-victim-examine = { CAPITALIZE(POSS-ADJ($ent)) } eyes and skin are worryingly pale.
